@@ -154,3 +154,44 @@ select {
     width: 275px;
     font-size: 12px;
 }
+
+[v-cloak] {
+    display: none
+}
+
+.card-manager {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card-manager .card {
+    height: 150px;
+}
+
+.card-manager .card p {
+    font-size: 12px !important;
+    margin: 0;
+    padding-top: 0;
+}
+
+textarea {
+    width: 300px;
+    height: 90px;
+}
+
+.card-pair {
+    display: flex;
+    justify-content: center;
+}
+
+.again {
+    background-color: #F6D55C;
+}
+
+.done {
+    text-align: center;
+}
